@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rag-llama"
+version = "0.0.1"
+description = ""
+authors = ["AbinavRavi <subramathreya@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+llama-index = "^0.10.25"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
